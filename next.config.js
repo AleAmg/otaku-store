@@ -2,6 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    domains: ["tierragamer.com"],
+    
+  },
 }
 
 module.exports = nextConfig
